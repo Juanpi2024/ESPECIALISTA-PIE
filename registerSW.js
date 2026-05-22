@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ESPECIALISTA-PIE/sw.js', { scope: '/ESPECIALISTA-PIE/' })})}
